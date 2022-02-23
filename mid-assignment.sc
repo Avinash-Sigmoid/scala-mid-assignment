@@ -1,4 +1,4 @@
-//tas-1  Bucketise the given array[Double] into buckets having range interval (x, x+0.049).
+//task-1  Bucketise the given array[Double] into buckets having range interval (x, x+0.049).
 def Bucketize(value: Float,start:Float,diff:Float):(Float,Float)={
   (start+((value/diff).floor)*diff,(start+((value/diff).floor)*diff+0.049F))}
 
