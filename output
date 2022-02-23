@@ -1,0 +1,30 @@
+Bucketize: (value: Float, start: Float, diff: Float)(Float, Float)
+
+
+
+(12.05,12.099)
+(12.0,12.049)
+(10.3,10.349)
+(11.45,11.499)
+(13.5,13.549)
+
+players_info: Array[(Int, String, String, Int, Int, Int)] = Array((2021,sam,India,23,2300,3), (2021,Ram,India,23,400,30), (2021,Mano,india,23,600,13), (2021,Virat,india,23,11300,15), (2021,Rohit,india,23,12300,10), (2021,Msd,india,23,12400,213))
+
+
+
+res5: String = Msd
+
+
+Msd
+Rohit
+Virat
+sam
+Mano
+
+Msd
+Ram
+Virat
+Mano
+Rohit
+
+res8: Array[(Int, String, String, Int, Int, Int)] = Array((2021,Msd,india,23,12400,213), (2021,Rohit,india,23,12300,10), (2021,Virat,india,23,11300,15), (2021,Ram,India,23,400,30), (2021,sam,India,23,2300,3), (2021,Mano,india,23,600,13))
